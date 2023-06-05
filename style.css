@@ -1,0 +1,93 @@
+body{
+    background-image: url(./vecteezy_graphics-design-illustration-digital-circuit-with-binary_7213032.jpg);
+    height: 110vh;
+}
+header{
+    color: white;
+    padding: 20px;
+    font-family: 'Roboto Slab', serif;
+    position: sticky;
+    top: 0;
+}
+.logo{
+    
+    display: inline-block;
+    width: 120px;
+    font-size: larger;
+    font-weight: 600;
+    color: rgb(228, 228, 11);
+}
+.nav{
+    
+    display: inline-block;
+    width: 600px;
+    position: absolute;
+    right: 15px;
+}
+#homie {
+    color: rgb(228, 228, 11);
+}
+.nav > a{
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+}
+.nav >a:hover{
+    color: rgb(228, 228, 11);
+}
+.heading{
+    color: white;
+    position: absolute;
+    top: 300px;
+    left: 85px;
+    font-size: 50px;
+    font-family: 'Roboto Slab', serif;
+    color: rgb(233, 233, 192);
+}
+.subhead{
+    color: white;
+    position: absolute;
+    top: 380px;
+    left: 100px;
+    font-family: 'Roboto Slab', serif;
+    color: rgb(157, 157, 67);
+}
+.pic>p{
+    margin: 0px;
+    padding: 10px 70px;
+    color: white; 
+    font-family: 'Roboto Slab', serif;
+    color: rgb(233, 233, 192);
+    font-weight: 600;
+    text-align: center;  
+}
+.pic{
+    position: absolute;
+    right:20px;
+    top: 200px;
+    justify-content: center;
+}
+.pic >img{
+    width: 500px;
+}
+button{
+    position: absolute;
+    top: 500px;
+    left: 85px;
+    width: 120px;
+    padding: 15px;
+    background-color: rgb(103, 52, 46);
+    color: rgb(233, 233, 192);
+    font-weight: 1000;
+    font-family: 'Roboto Slab', serif;
+    border-radius: 5%;
+    border: 0px; 
+}
+button:hover{
+    background-color: rgb(1, 4, 23);
+}
+footer{
+    color: rgb(157, 157, 67);
+    position: fixed;
+    bottom: 0px;
+}
